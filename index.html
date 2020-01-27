@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css?family=DM+Serif+Display:400,400i|Karla:400,400i,700,700i&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/3aff8df930.js"></script>
+  <title>Frontend Mentor | Insure landing page</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <input type="checkbox" class="checkbox" id="click" hidden>
+    <!-- Navbar -->
+    <div class="navbar">
+      <img src="images/logo.svg" class="logo">
+      <label for="click">
+        <div class="menu-icons">
+          <div class="line line1"></div>
+          <div class="line line2"></div>
+          <div class="line line3"></div>
+        </div>
+      </label>
+      <ul class="nav-list">
+        <li class="nav-links"><a href="#">How we work</a></li>
+        <li class="nav-links"><a href="#">Blog</a></li>
+        <li class="nav-links"><a href="#">Account</a></li>
+        <li class="nav-links"><button class="pricing-btn">View plans</button></li>
+      </ul>
+    </div>
+
+    <nav class="mobile-nav">
+      <ul class="nav-list-mobile">
+        <li class="nav-links-mobile"><a href="#">How we work</a></li>
+        <li class="nav-links-mobile"><a href="#">Blog</a></li>
+        <li class="nav-links-mobile"><a href="#">Account</a></li>
+        <li class="nav-links-mobile"><button class="pricing-btn-mobile">View plans</button></li>
+      </ul>
+    </nav>
+
+    <!-- End of Navbar -->
+    <!-- Header -->
+    <img src="images/bg-pattern-intro-right-desktop.svg" class="patternright">
+    <img src="images/bg-pattern-intro-left-desktop.svg" class="patternleft">
+    <img src="images/bg-pattern-intro-right-mobile.svg" class="patternright-mobile">
+    <img src="images/bg-pattern-intro-left-mobile.svg" class="patternleft-mobile">
+    <div class="header">
+      <div class="header-content">
+        <div>
+          <hr class="hrule1 hrule">
+          <hr class="hrule2 hrule">
+        </div>
+        <h1 class="header-heading">Humanizing your insurance.</h1>
+        <p class="header-para">Get your life insurance coverage easier and faster. We blend our expertise and technology to help you find the plan that’s right for you. Ensure you and your loved ones are protected.</p>
+        <button class="header-btn">View plans <i class="fas fa-angle-double-right btn-arrow"></i></button>
+      </div>
+      <div class="header-img">
+        <img src="images/image-intro-desktop.jpg" class="first-img">
+      </div>
+    </div>
+    <!-- End of Header  -->
+
+    <!-- Main -->
+    <div class="main">
+
+      <div>
+        <hr class="mhrule1 mhrule">
+        <hr class="mhrule2 mhrule">
+      </div>
+      <h1 class="main-heading">We’re different</h1>
+
+      <div class="cards">
+        <div class="card card1">
+          <img src="images/icon-snappy-process.svg" alt="" class="card-icons">
+          <h2 class="card-heading">Snappy Process</h2>
+          <p class="card-para">Our application process can be completed in minutes, not hours. Don’t get stuck filling in tedious forms.</p>
+        </div>
+        <div class="card card2">
+          <img src="images/icon-affordable-prices.svg" alt="" class="card-icons">
+          <h2 class="card-heading">Affordable Prices</h2>
+          <p class="card-para">We don’t want you worrying about high monthly costs. Our prices may be low, but we still offer the best coverage possible.</p>
+        </div>
+        <div class="card card3">
+          <img src="images/icon-people-first.svg" alt="" class="card-icons">
+          <h2 class="card-heading">People First</h2>
+          <p class="card-para">Our plans aren’t full of conditions and clauses to prevent payouts. We make sure you’re covered when you need it.</p>
+        </div>
+      </div>
+
+      <div class="more-us">
+        <img src="images/bg-pattern-how-we-work-desktop.svg" class="bg-pattern-desktop">
+        <img src="images/bg-pattern-how-we-work-mobile.svg" class="bg-pattern-mobile">
+        <div class="more-content">
+          <div class="more-heading">
+            <h1>Find out more about how we work</h1>
+          </div>
+          <div class="more-butn">
+            <button class="more-btn">How we work<i class="fas fa-angle-double-right btn-arrow-more"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of Main -->
+    <!-- Footer -->
+    <div class="footer">
+
+      <div class="footer-top">
+        <div class="footer-logo">
+          <img src="images/logo.svg" class="logo-footer">
+        </div>
+        <div class="socialicons">
+          <ul class="social-lists">
+            <li><a href="#" class="social-links facebook"><img src="images/icon-facebook.svg"></a></li>
+            <li><a href="#" class="social-links twitter"><img src="images/icon-twitter.svg"></a></li>
+            <li><a href="#" class="social-links pinterest"><img src="images/icon-pinterest.svg"></a></li>
+            <li><a href="#" class="social-links instagram"><img src="images/icon-instagram.svg"></a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-lists">
+          <ul class="company flist">
+            <li class="lists list-1 list-unique">Our company</li>
+            <li class="lists">How we work</li>
+            <li class="lists">Why Insure?</li>
+            <li class="lists">View plans</li>
+            <li class="lists">Reviews</li>
+          </ul>
+        </div>
+        <div class="footer-lists">
+          <ul class="help flist">
+            <li class="lists list-2 list-unique">Help me</li>
+            <li class="lists">FAQ</li>
+            <li class="lists">Terms of use</li>
+            <li class="lists">Privacy policy</li>
+            <li class="lists">Cookies</li>
+          </ul>
+        </div>
+        <div class="footer-lists">
+          <ul class="contact flist list-unique">
+            <li class="lists list-3">Contact</li>
+            <li class="lists">Sales</li>
+            <li class="lists">Support</li>
+            <li class="lists">Live chat</li>
+          </ul>
+        </div>
+        <div class="footer-lists">
+          <ul class="others flist list-unique">
+            <li class="lists list-4">Others</li>
+            <li class="lists">Careers</li>
+            <li class="lists">Press</li>
+            <li class="lists">Licenses</li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright">
+        <p class="copy-para">Challange by Frontend-Mentor <i class="fas fa-code icon"></i> with <i class="fas fa-heart icon"></i> by<a href="https://twitter.com/adarshcodes" class="twitad" target="_blank"> adarshcodes</a></p>
+      </div>
+    </div>
+    <!-- End of Footer -->
+
+
+  </div>
+</body>
+
+</html>
